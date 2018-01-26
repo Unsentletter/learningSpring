@@ -17,4 +17,12 @@ public class TrackCoach implements Coach{
     public String getDailyFortune() {
         return "adding strings together" + fortuneService.getDailyFortune();
     }
+
+    public void doMyStartupStuff() {
+        System.out.println("TrackCoach inside method doMyStartupStuff");
+    }
+
+    public void doMyCleanupStuff() {
+        System.out.println("TrackCoach inside method doMyCleanupStuff");
+    }
 }
