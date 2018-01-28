@@ -5,6 +5,9 @@
     <h2>TESTING</h2>
 </body>
 
-    <a href="/hello/showForm">Hello World Form</a>
+    <a href="/student/showForm">Hello World Form</a>
+
+    <br><br>
+    <a href="/customer/showForm">Show Customer Form</a>
 
 </html>
